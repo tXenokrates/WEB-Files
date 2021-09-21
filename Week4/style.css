@@ -1,0 +1,28 @@
+h1{
+  font-weight: 800;
+}
+body{
+  background-color: rgb(30,100,0)
+}
+ul {
+  /* everything in <ul> will use this style */
+  color:red;
+  font-family: arial;
+  font-weight: 500;
+      /* 400 default, 100 is thin and 800 is very thick */
+}
+
+img {
+  width: 10vw;
+}
+#top{
+  /* Sections are meant for CSS! */
+  font-family: italics;
+  background-color: rgb(50,50,50)
+}
+button{
+  background-color:yellow;
+}
+
+/* This is a comment */
+/* or ctrl + / */
