@@ -5,8 +5,9 @@
 }
 
 body{
-  color: rgb(200,200,200);
+  color: #D1CDC7;
   background-color: black;
+  margin: 10px;
 }
 
 .button1{
@@ -15,9 +16,62 @@ body{
   padding: 8px;
   border-radius:5px;
   border-color: darkred;
+  margin-left: 2px;
 }
 
 .button1:hover{
+  background-color: #D10000;
+}
+
+.button2{
+  background-color: #A31414;
+  color: black;
+  padding: 8px;
+  border-radius:5px;
+  border-color: darkred;
+  margin: 10px;
+}
+
+.button2:hover{
+  background-color: #D10000;
+}
+
+.button3{
+  background-color: #A31414;
+  color: black;
+  padding: 8px;
+  border-radius:5px;
+  border-color: darkred;
+  margin: 10px;
+}
+
+.button3:hover{
+  background-color: #D10000;
+}
+
+.button4{
+  background-color: #A31414;
+  color: black;
+  padding: 8px;
+  border-radius:5px;
+  border-color: darkred;
+  margin: 10px;
+}
+
+.button4:hover{
+  background-color: #D10000;
+}
+
+.button5{
+  background-color: #A31414;
+  color: black;
+  padding: 8px;
+  border-radius:5px;
+  border-color: darkred;
+  margin: 10px;
+}
+
+.button5:hover{
   background-color: #D10000;
 }
 
@@ -45,4 +99,24 @@ a{
 
 ul{
   list-style-type:circle;
+}
+
+#pagetop{
+  border-bottom: 2px solid #5F5850;
+}
+
+#Io{
+  border-bottom: 2px solid #5F5850;
+}
+
+#Europa{
+  border-bottom: 2px solid #5F5850;
+}
+
+#Ganymede{
+  border-bottom: 2px solid #5F5850;
+}
+
+#Callisto{
+  border-bottom: 2px solid #5F5850;
 }
