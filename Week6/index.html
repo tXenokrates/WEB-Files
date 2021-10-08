@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Week 6</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+</head>
+
+<body>
+  <section id="hero">
+    <h1 id="herotext">Welcome to my website!</h1>
+    <img alt="mountain" src="https://www.atlasandboots.com/wp-content/uploads/2019/05/ama-dablam2-most-beautiful-mountains-in-the-world.jpg" id="heroimg">
+  </section>
+  <section>
+    <h2>This is my first section</h2>
+    <p>This is some text.</p>
+    <p>This is a second paragraph</p>
+  </section>
+  <section>
+    <h2>This is my second section</h2>
+    <p>This is some more text</p>
+    <p>This is another paragraph</p>
+  </section>
+
+  <section id=button>
+    <h2>This section contains a button</h2>
+    <button id="mybutton">Click this button</button>
+    <br>
+    <button id="mybutton2">Click this second button</button>
+  </section>
+
+  <script>
+      // check by going to inspect --> console
+    console.log("javascript working");
+      // go to the page, find my botton, listen for a click
+    document.getElementById("mybutton").addEventListener("click", function(){alert("you pushed the button!")});
+      // function
+    document.getElementById("mybutton2").addEventListener("click", buttonClicked);
+    function buttonClicked(){
+      alert("you pushed the second button!");
+          // change element on website from clicking button
+      document.getElementById("herotext").innerHTML = "You are not Welcome!";
+    }
+    document.getElementById("hero").addEventListener("click", heroClicked);
+    function heroClicked(){
+      alert("you clicked the hero");
+    }
+  </script>
+
+</body>
+</html>

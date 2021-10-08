@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Color Me!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="top">
+    <h1>Color Me!</h1>
+    <p>This is a website you can color with the buttons below.</p>
+  </section>
+  <section id="buttons">
+  <button id="button1">Yellow!</button>
+  <br>
+  <button id="button2">Green!</button>
+  <br>
+  <button id="button3">Blue!</button>
+  <br>
+  <button id="button4">Red!</button>
+  </section>
+  <script>
+    // check by going to inspect --> console
+  console.log("javascript working");
+    // function
+  document.getElementById("button1").addEventListener("click", yellowButton);
+    function yellowButton(){
+      alert("Press OK to confirm color change to yellow");
+      document.body.style.backgroundColor="rgb(250 240 120)";
+      }
+
+  document.getElementById("button2").addEventListener("click", greenButton);
+    function greenButton(){
+      alert("Press OK to confirm color change to green");
+      document.body.style.backgroundColor="lightgreen";
+      }
+
+  document.getElementById("button3").addEventListener("click", blueButton);
+      function blueButton(){
+        alert("Press OK to confirm color change to blue");
+        document.body.style.backgroundColor="lightblue";
+        }
+
+  document.getElementById("button4").addEventListener("click", redButton);
+      function redButton(){
+        alert("Press OK to confirm color change to red");
+        document.body.style.backgroundColor="rgb(250 70 70)";
+        }
+  </script>
+</body>
+
+</html>

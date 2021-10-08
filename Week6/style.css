@@ -1,0 +1,31 @@
+p{
+  color: red;
+  font-family: helvetica;
+}
+
+h1, h2{
+  font-family: "Bebas Neue";
+}
+
+#hero img{
+      /* view width */
+  width:100vw;
+      /* stop image from stretching*/
+  object-fit: cover;
+      /* view height */
+  height:40vh;
+      /* crop parts of image outside bounds */
+  overflow:hidden;
+      /* move picture up */
+  position: relative;
+  bottom: 80px;
+}
+
+#hero h1{
+  z-index: 1;
+  position: relative;
+  font-size: 7vw;
+  top: 30vh;
+  margin: 0 0 0 20vw;
+  color: white;
+}

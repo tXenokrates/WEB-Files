@@ -1,0 +1,66 @@
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+p{
+  font-size:20px;
+  text-align: center;
+}
+
+
+button{
+  margin-top:100px;
+  padding: 15px 32px;
+  width: 150px;
+  height: 50px;
+  border-color:black;
+  border-radius:5px;
+  font-size:16px;
+  display:block;
+  margin:auto;
+}
+
+#button1{
+  /* yellow */
+  background-color:rgb(250 240 120);
+}
+
+#button1:hover{
+  background-color:yellow;
+  width: 165px;
+  height:55px;
+}
+
+#button2{
+  /* green */
+  background-color:lightgreen;
+}
+
+#button2:hover{
+  background-color:rgb(100 250 100);
+  width: 165px;
+  height:55px;
+}
+
+#button3{
+  /* blue */
+  background-color:lightblue;
+}
+
+#button3:hover{
+  background-color:#9ccaff;
+  width: 165px;
+  height:55px;
+}
+
+#button4{
+  /* red */
+  background-color: rgb(250 70 70);
+}
+
+#button4:hover{
+  background-color:red;
+  width: 165px;
+  height:55px;
+}
