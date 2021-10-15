@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quote Machine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <h1>Ask a yes or no question, then press button</h1>
+    <button id="newquote">Generate Answer</button>
+    <h2 id="qtext"></h2>
+  </section>
+</body>
+
+<script>
+  const quotes = ["No way!","Probably not","Perhaps","50/50 shot","Likely","Definitely!"];
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+
+  function buttonClicked(){
+
+    // Source of random number generator: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+    function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+    }
+    // end of random number generator code
+    let quotecount=getRandomInt(6);
+
+    console.log(quotes[quotecount]);
+    document.getElementById("qtext").innerHTML=quotes[quotecount];
+  }
+
+</script>
+
+</html>
