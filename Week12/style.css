@@ -1,0 +1,65 @@
+body h2{
+  font-size:25px;
+}
+
+body{
+  /* width:50vw; */
+  background:#a1c6ea;
+  font-family: "Yuji Syuku", serif;
+  text-align: center;
+}
+
+div{
+  /* background-color:pink; */
+  width:30vw;
+}
+
+span{
+  font-size: 2em;
+}
+
+img{
+  width:30vw;
+}
+
+#topics{
+  display:grid;
+  grid-template-columns: 33vw 33vw 33vw;
+  background: #507dbc;
+  padding:1vw;
+}
+
+  @media screen and (max-width:800px){
+    #topics{
+      display: grid;
+      grid-template-columns: 50vw 50vw;
+      background: #507dbc;
+      padding:20px;
+    }
+  body{
+    margin:5vw;
+  }
+
+  img{
+    width:30vw;
+  }
+
+  #one{
+    order:1;
+  }
+  #four{
+    order: 2;
+  }
+  #two{
+    order:3;
+  }
+  #five{
+    order:4;
+  }
+  #three{
+    order:5;
+  }
+  #six{
+    order:6;
+  }
+}
