@@ -1,0 +1,257 @@
+body{
+  background-color: black;
+}
+
+#HeaderImage{
+  width: 100vw;
+  /* position-top: */
+}
+
+h1{
+  color: white;
+  font-size: 40px;
+  font-weight:lighter;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Orbitron', sans-serif;
+}
+
+h2{
+  color:blue;
+}
+
+h3{
+  color:white;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 26px;
+}
+
+p{
+  color:white;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+}
+
+#Publications{
+  text-align:center;
+  margin-top:;
+}
+
+#Europa{
+  position: absolute;
+  width:12vw;
+  top: 12%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+}
+
+#Moon{
+  position: absolute;
+  width:14vw;
+  top: 17%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+}
+
+#Enceladus{
+  position: absolute;
+  width:11vw;
+  top: 31%;
+  left: 91%;
+  transform: translate(-50%, -50%);
+  z-index:1;
+}
+
+.RegButtons{
+  background:transparent;
+  color:black;
+  border-radius:90px;
+  height:10vw;
+  font-size:26px;
+  font-family: 'Orbitron', sans-serif;
+  /* font-weight:bold; */
+  /* -webkit-text-stroke: 0.5px white; /* width and color */
+}
+
+.RegButtons:hover{
+  font-size: 29px;
+}
+
+.RegButtons:active{
+  font-weight:bold;
+}
+
+#EuropaButton{
+  position: absolute;
+  width:12vw;
+  top: 12%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index:2;
+  border:none;
+}
+
+#MoonButton{
+  position: absolute;
+  width:14vw;
+  top: 17%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+  z-index:2;
+  border:none;
+}
+
+#EnceladusButton{
+  position: absolute;
+  width:11vw;
+  top: 31%;
+  left: 91%;
+  transform: translate(-50%, -50%);
+  z-index:2;
+  border:none;
+}
+
+#HomeButton{
+  background:transparent;
+  color:gray;
+  border:none;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 30px;
+}
+
+#HomeButton:hover{
+  color:white;
+}
+
+#HomeButton:active{
+  font-weight:bold;
+}
+
+#FlexSingle{
+  display: flex;
+  width:70vw;
+  flex-direction: column;
+
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+#FlexDuo{
+  display:flex;
+  justify-content:center;
+  width:70vw;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+#PhotoGrid{
+  /* width:40vw; */
+  /* display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding:20px; */
+
+  /* grid-template-columns: [first] 30vw [line2] 30vw;
+  grid-template-rows: [row1-start] 30vw [row1-end] 30vw [third-line] 30vw; */
+  margin-top:250px;
+  display:grid;
+  grid-template-columns: 40vw 40vw;
+  padding:1vw;
+  gap: 30px 30px;
+
+
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-45%, -20%);
+}
+
+#one{
+  order:1;
+}
+#two{
+  order: 2;
+}
+#three{
+  order:3;
+}
+#four{
+  order:5;
+}
+#five{
+  order:4;
+}
+#six{
+  order:6;
+}
+
+
+#pic{
+  width:30vw;
+}
+
+#container{
+  display:flex;
+  flex-direction:column;
+}
+
+#PicOfMe{
+  width:300px;
+  height:100%;
+  padding-left:10vw;
+  padding-top:20px;
+  margin-bottom:200px;
+  /* background-color:red; */
+}
+
+#CraterPic{
+  width:30vw;
+  height:100%;
+  padding-left:10vw;
+  padding-top:20px;
+  margin-bottom:200px;
+  /* background-color:red; */
+}
+
+@media screen and (max-width:1000px){
+  .RegButtons{
+    font-size:18px;
+  }
+  .RegButtons:hover{
+    font-size: 20px;
+  }
+  #EuropaButton{
+    top: 8%;
+    left: 65%;
+  }
+  #Europa{
+    top: 8%;
+    left: 65%;
+  }
+  #MoonButton{
+    top: 13%;
+    left: 82%;
+  }
+  #Moon{
+    top: 13%;
+    left: 82%;
+  }
+  #EnceladusButton{
+    top: 25%;
+    left: 93%;
+  }
+  #Enceladus{
+    top: 25%;
+    left: 93%;
+  }
+  #Publications{
+    margin-top:700px;
+  }
+}
